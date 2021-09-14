@@ -5,13 +5,11 @@ package SenseHatIoT
  * Common functions!
  *
  * Principal author(s) : Abhishek Tiwary
- *                       abhishek.tiwary@dolby.com
- *
  */
 
 import (
-	"net"
 	"io"
+	"net"
 	"os"
 )
 

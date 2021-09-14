@@ -5,11 +5,9 @@ package SenseHatIoT
  * HTML templates to render on the frontend!
  *
  * Principal author(s) : Abhishek Tiwary
- *                       abhishek.tiwary@dolby.com
- *
  */
 
-type HtmlTemplates struct {}
+type HtmlTemplates struct{}
 
 func (*HtmlTemplates) IndexPageTemplate() []byte {
 	templ := []byte(`<!DOCTYPE html>
@@ -135,7 +133,6 @@ window.onload = function() {
 </body>
 </html>
 	`)
-	
+
 	return templ
 }
-
